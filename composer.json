@@ -3,7 +3,6 @@
     "type": "silverstripe-recipe",
     "description": "The SilverStripe Framework Installer",
     "require": {
-        "php": ">=5.6.0",
         "silverstripe/recipe-plugin": "^1.2",
         "silverstripe/recipe-cms": "4.4.x-dev",
         "silverstripe-themes/simple": "~3.2.0"
@@ -30,7 +29,11 @@
             "install-frameworkmissing.html",
             "install.php",
             "web.config"
-        ]
+        ],
+        "violinist": {
+            "timezone": "+1200",
+            "update_with_dependencies": 0
+        }
     },
     "config": {
         "process-timeout": 600
