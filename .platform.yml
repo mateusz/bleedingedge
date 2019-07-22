@@ -4,3 +4,6 @@ packages:
   blackfire:
     server_id: '8f17559e-19b7-4a00-8aa8-f443b1035f04'
     server_token: '0c74651261d7d8675c151255ab064ebb6a712f354eaa2c7847a97b07da206e40'
+  newrelic:
+    appname: 'Test'
+    license_key: 'b0e0d07651de7dff11436e29a2e530a56ac7a5a6'
