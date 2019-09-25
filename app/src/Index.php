@@ -8,5 +8,6 @@ class Index extends SolrIndex
     {
         $this->addClass(Page::class);
         $this->addFulltextField('Title');
+        $this->addFulltextField('Content');
     }
 }
