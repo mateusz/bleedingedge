@@ -1,4 +1,4 @@
+mysql:
+  version: 5.7.24
 php_settings:
   version: 7.4
-  global:
-    'Session/session.cookie_samesite': '"None"'
