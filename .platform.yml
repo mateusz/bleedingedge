@@ -1,4 +1,2 @@
-mysql:
-  version: 5.7.28
 php_settings:
   version: 7.4
